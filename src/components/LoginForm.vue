@@ -18,9 +18,9 @@
                     <v-img
                         class="mx-auto"
                         width="240"
-                        src="@/assets/CIC_Logo.svg"
+                        src="@/assets/navbar_logo.png"
                         contain></v-img>
-                <v-card-text class="login-title">VR Cloud Platform</v-card-text>
+                <v-card-text class="login-title"></v-card-text>
                 </v-list-item-title>
             </v-list-item-content>
         </v-list-item>

@@ -21,7 +21,7 @@
         <div>
           <v-img
               class="header-icon"
-              src="@/assets/company_logo.svg"
+              src="@/assets/navbar_logo_v2.png"
               contain></v-img>
         </div>
       </router-link>

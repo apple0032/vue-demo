@@ -470,14 +470,14 @@ button[class="vspButton"]:not(:first-child):not(:last-child):hover {
 .right-content {
   background-color: #fcfcfd;
   border-radius: 10px;
-  box-shadow: 0px 0px 5px 2px rgb(126 211 33 / 20%);
+  box-shadow: 0px 0px 5px 2px rgb(146 158 193 / 20%);
   width: 95%;
   margin-left: 50px;
 }
 .right-content-mobile {
   background-color: #fcfcfd;
   border-radius: 10px;
-  box-shadow: 0px 0px 5px 2px rgb(126 211 33 / 20%);
+  box-shadow: 0px 0px 5px 2px rgb(146 158 193 / 20%);
   width: 100%;
 }
 

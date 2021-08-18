@@ -15,7 +15,7 @@
                 <v-img
                     class="header-icon"
                     v-bind:width="getLogoWidth"
-                    src="@/assets/company_logo.svg" 
+                    src="@/assets/navbar_logo.png"
                     contain></v-img>
                     </div>
             </router-link>
@@ -109,6 +109,7 @@ export default {
         if(!window.sessionStorage.getItem("CSW2020")){
             this.logout();
         }
+        console.log(this.$store.getters.isAdmin);
     },
     components:{
         DropdownMenu
@@ -593,7 +594,7 @@ a.dropdown-item{
   background-color: var(--white);
   position: relative;
   margin-left: 25px;
-  box-shadow: 0px 0px 5px 2px rgb(126 211 33 / 20%);
+  box-shadow: 0px 0px 5px 2px rgb(146 158 193 / 20%);
 }
 
 

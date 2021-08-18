@@ -676,7 +676,7 @@ export default {
 }
 
 .userView-container{
-  box-shadow: 0px 0px 5px 2px rgb(126 211 33 / 20%);
+  box-shadow: 0px 0px 5px 2px rgb(146 158 193 / 20%);
   margin: 0 60px 230px 75px;
   background-color: #fcfcfd;
   border-radius: 10px;

@@ -138,7 +138,7 @@ export default {
     box-shadow: 0 0 10px 0 #e8e8e8;
   }
   .theme--light.v-card.v-card--outlined:hover{
-    box-shadow: 0px 0px 5px 2px rgb(126 211 33 / 20%) !important;
+    box-shadow: 0px 0px 5px 2px rgb(146 158 193 / 20%) !important;
   }
 
   .theme--light.v-pagination{
@@ -411,11 +411,11 @@ export default {
 }
 
 #app .v-sheet.v-card{
-  box-shadow: 0px 0px 5px 2px rgb(126 211 33 / 20%);
+  box-shadow: 0px 0px 5px 2px rgb(146 158 193 / 20%);
 }
 
 .edit-form-container , .record-form-container , .login-form-container , .registration-form-container , .admin-registration-form-container{
-  box-shadow: 0px 0px 5px 2px rgb(126 211 33 / 20%) !important;
+  box-shadow: 0px 0px 5px 2px rgb(146 158 193 / 20%) !important;
 }
 
 .login-error li{

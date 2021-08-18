@@ -157,9 +157,10 @@ export default new Vuex.Store({
             return state.userInfo.lang ?? "en"
         },
         isAdmin: state => {
-            let isAdmin = false
 
-            if(state.userInfo.roles == "SuperAdmin"){
+            let isAdmin = false;
+
+            if(state.userInfo.v2Info.data.result.policy.v1 == "SuperAdmin"){
                 isAdmin = true
             }
 
