@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="12" viewBox="0 0 30 12">
+    <g fill="none" fill-rule="evenodd" transform="translate(-8 -5)">
+        <rect width="45" height="24" fill="#9FCB3D" fill-opacity="0" rx="12"/>
+        <text fill="#324E4F" font-family="Avenir-Medium, Avenir" font-size="14" font-weight="400">
+            <tspan x="7.705" y="16">ENG</tspan>
+        </text>
+    </g>
+</svg>

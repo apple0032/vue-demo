@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="24" viewBox="0 0 45 24">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="45" height="24" fill="#9FCB3D" rx="12"/>
+        <text fill="#FFF" font-family="PingFangHK-Semibold, PingFang HK" font-size="12" font-weight="500">
+            <tspan x="11" y="16">繁中</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,83 @@
+{
+  "name": "csw2020",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@celdotro/vue-simplepagination": "^1.3.2",
+    "@innologica/vue-dropdown-menu": "^0.1.3",
+    "@websanova/vue-auth": "^3.2.1-beta",
+    "axios": "^0.19.2",
+    "axios-auth-refresh": "^2.2.7",
+    "core-js": "^3.6.4",
+    "highcharts": "^8.1.2",
+    "highcharts-vue": "^1.3.5",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-client": "^1.2.0",
+    "jwks-rsa": "^1.8.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "p-iteration": "^1.1.8",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-ctk-date-time-picker": "^2.4.0",
+    "vue-gallery-slideshow": "^1.5.0",
+    "vue-i18n": "^8.18.2",
+    "vue-image-upload-resize": "^2.3.0",
+    "vue-loading-overlay": "^3.3.2",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.2.0",
+    "vue-runtime-helpers": "^1.1.2",
+    "vue-upload-component": "^2.8.20",
+    "vue-upload-image": "^1.1.5",
+    "vuejs-noty": "^0.1.3",
+    "vuejs-paginate": "^2.1.0",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.4.0",
+    "vuex-persist": "^2.2.0",
+    "vuex-persistedstate": "^3.0.1",
+    "vux-uploader-component": "^1.0.18"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-router": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "deepmerge": "^4.2.2",
+    "es6-promise": "^4.2.8",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "fibers": "^5.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "~2.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
