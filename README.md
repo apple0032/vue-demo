@@ -1,6 +1,17 @@
-# CIC VR Cloud-Based Platform
+# vue-demo project
 
-### Development Mode
+### Check for listening port
 ```
-docker-compose up --build
+lsof -i -n -P|grep LISTEN
+```
+
+### Stop/Delete a running node instance
+```
+pm2 stop {name}
+pm2 delete {name}
+```
+
+### Create and listen for a node instance
+```
+pm2 start npm -- start -- --port 5000
 ```
