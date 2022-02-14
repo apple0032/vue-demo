@@ -204,8 +204,7 @@ VueRouter.prototype.push = function push(location) {
 }
 
 Vue.router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
+  base: "",
   routes
 })
 
